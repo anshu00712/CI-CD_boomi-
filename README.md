@@ -26,7 +26,7 @@ Restart Jenkins after copying the folder.
 
 # Configuring Boomi Account 
 
-Configure Jenkins to connect to Boomi Account. (This assume firewall/proxy b/w Jenkins and Boomi AtomSphere is set). There are two GIT repos that can be configured (both optional). One is the Git Component Repo where the component XMLs will be automatically stored. The other the GIT Release Repo where the Boomi components can be deployed using a release template. [Examples](https://github.com/OfficialBoomi/boomicicd-cli/tree/master/cli/scripts/templates/configurations)
+Configure Jenkins to connect to Boomi Account. (This assume firewall/proxy b/w Jenkins and Boomi AtomSphere is set). There are two GIT repos that can be configured (both optional). One is the Git Component Repo where the component XMLs will be automatically stored. The other the GIT Release Repo where the Boomi components can be deployed using a release template. [Examples](https://github.com/anshu00712/Boomi_CLI_Scripts/tree/main/cli/scripts/templates/configurations)
 * Login to Jenkins and select the Account {Rename} folder & click configure. Review and update all the fields as required.
 * Update the Display Name
 * Update the the folder properties Name: accountId Value: <>
